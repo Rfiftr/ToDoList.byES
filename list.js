@@ -26,7 +26,7 @@ listContainer.addEventListener('click', closeMenu)
      //מאזין למעבר לסל מיחזור
 toDoListPage.addEventListener('click', showToDoList)
 function showToDoList() {
-    const recyclingUrl = 'https://rfiftr.github.io/ToDoList.byES/Recycling'
+    const recyclingUrl = 'https://rfiftr.github.io/ToDoList.byES/Recycling/recycling.html'
     window.location,href = recyclingUrl
 }
 
