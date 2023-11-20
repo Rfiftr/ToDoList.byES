@@ -31,12 +31,12 @@ menuButton.addEventListener('click', openMenu)
 //פתיחת התפריט בלחיצה על השלוש נקודות
 function openMenu() {
     //הגובה נקבע לפי כמות הפרטים שיש בתפריט כל אחד 53
-    menu.style.height = menu.style.height === '106px' ? closeMenu() : '106px'
+    menu.style.display = menu.style.display === 'block' ? closeMenu() : 'block'
 }
 
 //סגירת התפריט בלחיצה על המסך
 function closeMenu() {
-    menu.style.height = '0'
+    menu.style.display = 'none'
 }
 
 
