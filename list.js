@@ -252,7 +252,7 @@ function updateUi() {
     
             const itemParagraph = document.createElement('p')
             itemParagraph.classList.add('item-paragraph')
-            itemParagraph.textContent = item.text
+            itemParagraph.innerHTML = item.text.replace(/\n/g, "<br>");
     
             if(item.compleited) {
                 itemDoneBtn.classList.add('done-button-click')
