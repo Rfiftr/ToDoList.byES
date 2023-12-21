@@ -149,7 +149,7 @@ body::-webkit-scrollbar-thumb {
 .item-paragraph {
     padding: 0 40px;
     margin: 10px 0;
-    text-align: center;
+    text-align: right;
     max-height: 200px;
     overflow-y: auto;
 }
