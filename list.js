@@ -219,7 +219,7 @@ function updateUi() {
             const itemElement = document.createElement('div')
             itemElement.classList.add('item')
             itemElement.addEventListener('click', (event) => {
-                if(event.target.classList.contains('item-header')) {
+                if(event.target.classList.contains('item-header') || event.target.classList.contains('item-title')) {
                     opemTask(index, itemBody)
                 }
             })
