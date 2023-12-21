@@ -253,6 +253,7 @@ function updateUi() {
             const itemParagraph = document.createElement('p')
             itemParagraph.classList.add('item-paragraph')
             itemParagraph.innerHTML = item.text.replace(/\n/g, "<br>");
+            itemParagraph.dir = 'rtl'
     
             if(item.compleited) {
                 itemDoneBtn.classList.add('done-button-click')
